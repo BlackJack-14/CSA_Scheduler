@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
+.Schedule-head {
+    max-width: 400px;
+    align-content: center;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+
+
+}
+
+.Schedule {
+    display: flex;
+    margin-top: 20px;
+    max-width: 100px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.Day {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+    padding: 1px;
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule {
+    text-align: center;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.schedule h1 {
+    background-color: #ffc2c2;
+    color: #000;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.schedule-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.schedule-item:nth-child(odd) {
+    background-color: #ffe680;
+}
+
+.schedule-item:nth-child(even) {
+    background-color: #aeeff5;
+}
