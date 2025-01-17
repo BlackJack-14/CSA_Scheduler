@@ -40,8 +40,10 @@ body {
 }
 
 .form-group input {
+    text-align: center;
+
     align-items: center;
-    width: 80%;
+    width: 99%;
     padding: 10px;
     border: 1px solid #d1d5db;
     border-radius: 4px;
