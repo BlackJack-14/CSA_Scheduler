@@ -9,12 +9,15 @@ body {
 }
 
 .form-container {
-    margin-left: 5% !important;
-    width: 80%;
+    width: 95%;
     padding: 20px;
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .form-container h2 {
@@ -33,9 +36,11 @@ body {
     font-weight: bold;
     font-size: 14px;
     color: #555;
+    text-align: center;
 }
 
 .form-group input {
+    align-items: center;
     width: 80%;
     padding: 10px;
     border: 1px solid #d1d5db;
@@ -95,12 +100,24 @@ body {
     margin-bottom: 20px;
 }
 
-.schedule-head,
+.schedule-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 3px;
+    background-color: #f8d6d6;
+    color: #333;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
 .schedule-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 12px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 8px;
@@ -108,22 +125,8 @@ body {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.schedule-head {
-    background-color: #f8d6d6;
-    color: #333;
-}
-
 .schedule-item:nth-child(odd) {
     background-color: #fbd6c8;
-}
-
-.schedule-item:nth-child(even) {
-    background-color: #f9c0b1;
-}
-
-.schedule-item:hover {
-    transform: scale(1.03);
-    background-color: #ffe8d9;
 }
 
 /* ! Give this class to the class name span when you maipulate the html using js this will handle long names like Data structure and algorithms */
@@ -134,4 +137,17 @@ body {
 
 @media (max-width: 1024px) {
     /* !do the styling fot laptops */
+}
+
+.schedule-item:nth-child(even) {
+    background-color: #f9c0b1;
+}
+
+.schedule-item span {
+    flex: 1;
+    text-align: center;
+}
+
+.schedule-item .class {
+    flex: 2;
 }
